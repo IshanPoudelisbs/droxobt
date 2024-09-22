@@ -2,11 +2,11 @@
 
 const { Client, Collection, Intents } = require('discord.js');
 const { bot } = require('./settings.js');
-const config = require('./config.json');
+// const config = require('./config.json');
 const fs = require('fs')
 const { joinVoiceChannel } = require('@discordjs/voice');
 const { QuickDB } = require('quick.db');
-const token = config.token;
+// const token = config.token;
 
 const client = new Client({
   intents: [
